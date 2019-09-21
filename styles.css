@@ -1,0 +1,12 @@
+body {
+    color: #7E7E7E;
+    background-color: #101010;
+}
+
+h1, h2, h3, a {
+    color: #EEC330;
+}
+
+.rintamaki {
+    color: green;
+}

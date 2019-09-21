@@ -1,0 +1,9 @@
+CSS IDs can only be used once per page (Without validation error)
+
+element .classname {blah blah blah} will not work
+element.classname {blah blah blah} will work
+<div> </div> treats multiple elements as one.
+
+style part of an element
+<span> </span>
+
