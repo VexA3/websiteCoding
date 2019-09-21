@@ -8,5 +8,17 @@ h1, h2, h3, a {
 }
 
 .rintamaki {
-    color: green;
+    color: #43878a;
+}
+
+.complete {
+    color: #3399ff;
+}
+
+.incomplete {
+    color: #596e8f;
+}
+
+footer {
+    color: #803938;
 }
