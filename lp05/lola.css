@@ -1,0 +1,22 @@
+body {
+    padding-left: 72px;
+    background-color: #AED8E6;
+    background-image:url(images/pawprint.png);
+    background-repeat: repeat-y; 
+    background-position: top left;
+    color: #633F4C;
+}
+
+header {
+    padding-left: 72px;
+    background-image: url(images/grass.png);
+    background-repeat: repeat-x; 
+    background-position: top left;
+    color: white;
+}
+
+footer {
+    background-image: url(images/pawprint.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
