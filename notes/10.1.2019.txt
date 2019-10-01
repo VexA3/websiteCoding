@@ -1,0 +1,39 @@
+- sans-serif default: Times new roman (Font with feet)
+- font should always have 2 fonts, 1 selective font, and sans-serif
+- You can selectivly change what is bold and what is not by using a different classname in css
+see h1, h3 figure for reference.
+- making font italicized is done via font-style attribute.
+- font adjustments can be used in css to change default HTML wrapping. see figure EM for reference.
+- font size changes the size of the font being effected. There are many ways to change the font.
+
+
+font-family: any font installed on machine, sans-serif;
+font-weight: bold OR normal
+font-style: italic, normal
+text-decoration: underline, none, overline, line-throught
+font-size: 3em (300%), 30px (30 pixels), 30%, (x-small, small, medium...., xx-large)
+
+Fonts in css:
+body {
+    font-family: ariel;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 30em, 30px;
+}
+
+**********
+**H1, H3**
+**********
+
+h1, h3 {
+    font-weight: normal
+}
+
+********
+** EM **
+********
+EM {
+    font-style: normal;
+    color: #fffff;
+}
