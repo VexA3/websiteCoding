@@ -1,0 +1,152 @@
+/* Main features */
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+
+.divBody {
+    background-image: linear-gradient(to bottom, #FFD103 , #FFFCC5);
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+h1 {
+    background-image: linear-gradient(to top, blue, lightblue);
+    border-radius: 7px;
+    margin-right: 100px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td:hover {
+    background-color: orange;
+    color: blue;
+}
+
+/* 
+    Lesser important stuff
+*/
+p {
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* li {
+    border-radius: 7px;
+} */
+
+ol {
+    padding-left: 60px;
+}
+
+h2 {
+    padding-left: 40px;
+}
+
+/* 
+    Divided list to work with
+*/
+
+.main {
+    float: right;
+    margin-right: 200px;
+}
+
+#morning {
+    background-image: url(images/morning.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 7000px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 5px;
+    opacity: .6;
+}
+
+#afternoon {
+    -moz-border-radius: 7px;
+    background-image: url(images/afternoon.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 7000px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+    margin-bottom: 5px;
+    opacity: .6;
+}
+
+#evening {
+    -moz-border-radius: 7px;
+    background-image: url(images/evening.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 7000px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+    margin-bottom: 5px;
+    opacity: .6;
+}
+
+#online {
+
+    background-image: url(images/online.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 7000px;
+    padding-right: 150px;
+    padding-bottom: 70px;
+    margin-bottom: 5px;
+    opacity: .6;
+}
+
+/* 
+    text only
+*/
+#link {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: -150px;
+    padding: 10px;
+    /* opacity: .65; */
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
