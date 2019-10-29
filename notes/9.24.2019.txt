@@ -1,0 +1,34 @@
+div assignment bullet points and give declared ID
+
+<img src="" alt="">
+<a href="homepage link here"><img src="" alt=""></a>
+
+HTML:
+1. Prints
+2. Can be link
+3. Replacing content with image? Then HTML
+
+CSS: 
+1. No print
+2. Can't be link
+3. Text on top of image? Then CSS
+
+css....
+
+body {
+    color: #hexnum;
+    background-image: url(imagelink);
+    background-repeat: no-repeat; // repeat-x; repeat-y;
+    background-position: pos1x pos2x;
+    padding-left: 72px;
+}
+
+ul li {
+    list-style-image: url(image link);
+    list-style-type: upper-alpha;
+}
+
+ul {
+    background-image: url(image) no-repeat top left,
+                      url(image) no repeat bottom left;
+}
